@@ -1,0 +1,9 @@
+[2025-12-31 22:15:42,631] line: 26 root - INFO - Entered into logging block
+[2025-12-31 22:15:42,637] line: 29 root - INFO - Reading the dataset
+[2025-12-31 22:15:42,642] line: 34 root - INFO - Train test split initiated
+[2025-12-31 22:15:42,650] line: 40 root - INFO - injection completed
+[2025-12-31 22:15:42,679] line: 61 root - INFO - train and test path are readed
+[2025-12-31 22:15:42,679] line: 46 root - INFO - num_pipeline,cat_pipeline created
+[2025-12-31 22:15:42,679] line: 51 root - INFO - preprocessor created
+[2025-12-31 22:15:42,681] line: 75 root - INFO - train and target_train, test and target_test were created
+[2025-12-31 22:15:42,700] line: 80 root - INFO - train and test are encoded

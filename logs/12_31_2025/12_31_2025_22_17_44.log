@@ -1,0 +1,13 @@
+[2025-12-31 22:17:46,747] line: 26 root - INFO - Entered into logging block
+[2025-12-31 22:17:46,752] line: 29 root - INFO - Reading the dataset
+[2025-12-31 22:17:46,758] line: 34 root - INFO - Train test split initiated
+[2025-12-31 22:17:46,765] line: 40 root - INFO - injection completed
+[2025-12-31 22:17:46,793] line: 61 root - INFO - train and test path are readed
+[2025-12-31 22:17:46,793] line: 46 root - INFO - num_pipeline,cat_pipeline created
+[2025-12-31 22:17:46,793] line: 51 root - INFO - preprocessor created
+[2025-12-31 22:17:46,795] line: 75 root - INFO - train and target_train, test and target_test were created
+[2025-12-31 22:17:46,812] line: 80 root - INFO - train and test are encoded
+[2025-12-31 22:17:46,814] line: 18 root - INFO - file waas dumped
+[2025-12-31 22:17:46,814] line: 90 root - INFO - saving the file initiated
+[2025-12-31 22:17:46,814] line: 91 root - INFO - train_array and test_array were created
+[2025-12-31 22:17:46,814] line: 92 root - INFO - data transformation were done

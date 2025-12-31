@@ -1,3 +1,4 @@
 env
 .env
 MLOPS.egg-infocls
+__pycache__

@@ -4,5 +4,7 @@ pandas
 matplotlib
 seaborn
 scikit-learn
+dill
+pickle
 
 -e .
