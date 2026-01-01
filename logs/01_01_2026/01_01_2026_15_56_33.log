@@ -1,0 +1,19 @@
+[2026-01-01 15:56:44,199] line: 29 data_ingestion.py  - INFO - Entered into logging block
+[2026-01-01 15:56:44,301] line: 32 data_ingestion.py  - INFO - Reading the dataset
+[2026-01-01 15:56:44,309] line: 37 data_ingestion.py  - INFO - Train test split initiated
+[2026-01-01 15:56:44,317] line: 43 data_ingestion.py  - INFO - injection completed
+[2026-01-01 15:56:44,343] line: 61 data_transformation.py  - INFO - train and test path are readed
+[2026-01-01 15:56:44,343] line: 46 data_transformation.py  - INFO - num_pipeline,cat_pipeline created
+[2026-01-01 15:56:44,343] line: 51 data_transformation.py  - INFO - preprocessor created
+[2026-01-01 15:56:44,345] line: 75 data_transformation.py  - INFO - train and target_train, test and target_test were created
+[2026-01-01 15:56:44,364] line: 80 data_transformation.py  - INFO - train and test are encoded
+[2026-01-01 15:56:44,365] line: 19   utils.py  - INFO - file was dumped
+[2026-01-01 15:56:44,365] line: 90 data_transformation.py  - INFO - saving the file initiated
+[2026-01-01 15:56:44,366] line: 91 data_transformation.py  - INFO - train_array and test_array were created
+[2026-01-01 15:56:44,366] line: 92 data_transformation.py  - INFO - data transformation were done
+[2026-01-01 15:56:44,366] line: 29 model_training.py  - INFO - Block: model training entered
+[2026-01-01 15:56:44,366] line: 25   utils.py  - INFO - Model evaluation entered
+[2026-01-01 15:56:48,454] line: 48 model_training.py  - INFO - model get trained and predicted
+[2026-01-01 15:56:48,454] line: 58 model_training.py  - INFO - Best model found
+[2026-01-01 15:56:48,455] line: 19   utils.py  - INFO - file was dumped
+[2026-01-01 15:56:48,456] line: 67 model_training.py  - INFO - Model training finished!

@@ -65,7 +65,7 @@ class model_trainer:
 
             r2_score_=r2_score(y_test,prediction)
             logging.info('Model training finished!')
-            return f'r2_score= {r2_score_}'
+            return r2_score_
 
         except Exception as e:
             raise CustomeException(e,sys)
