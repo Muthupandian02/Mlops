@@ -9,6 +9,9 @@ import os
 from .data_transformation import datatransformation_class
 from .data_transformation import datatranformation_preprocess
 
+from .model_training import model_train_path
+from .model_training import model_trainer
+
 
 
 @dataclass
@@ -51,5 +54,10 @@ if __name__=="__main__":
      train_data, test_data=obj.initiate_injection()
 
      datatransformation=datatranformation_preprocess()
-     datatransformation.initiate_data_transformation(train_data,test_data)
+     train_arr,test_arr,_=datatransformation.initiate_data_transformation(train_data,test_data)
+
+     model_training=model_trainer()
+     model_training.initiate_model_training(train_arr,test_arr)
+
+
             
