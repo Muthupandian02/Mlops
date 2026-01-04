@@ -1,0 +1,8 @@
+[2026-01-04 19:22:24,753] line: 29 data_ingestion.py  - INFO - Entered into logging block
+[2026-01-04 19:22:24,847] line: 32 data_ingestion.py  - INFO - Reading the dataset
+[2026-01-04 19:22:24,882] line: 37 data_ingestion.py  - INFO - Train test split initiated
+[2026-01-04 19:22:24,987] line: 43 data_ingestion.py  - INFO - injection completed
+[2026-01-04 19:22:25,023] line: 61 data_transformation.py  - INFO - train and test path are readed
+[2026-01-04 19:22:25,023] line: 46 data_transformation.py  - INFO - num_pipeline,cat_pipeline created
+[2026-01-04 19:22:25,023] line: 51 data_transformation.py  - INFO - preprocessor created
+[2026-01-04 19:22:25,057] line: 75 data_transformation.py  - INFO - train and target_train, test and target_test were created

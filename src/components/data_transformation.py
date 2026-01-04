@@ -22,13 +22,13 @@ class datatranformation_preprocess:
 
     def datatransformation_convert(self):
         try:
-            numerical_columns = ["writing score", "reading score"]
+            numerical_columns = ["writing_score", "reading_score"]
             categorical_columns = [
                     "gender",
-                    "race/ethnicity",
-                    "parental level of education",
+                    "race_or_ethnicity",
+                    "parental_level_of_education",
                     "lunch",
-                    "test preparation course",
+                    "test_preparation_course",
                 ]
             num_pipeline=Pipeline(
                 steps=[
@@ -62,8 +62,8 @@ class datatranformation_preprocess:
 
             preprocessor=self.datatransformation_convert()
 
-            target_column="math score"
-            numeric_columns=['reading score','writing score']
+            target_column="math_score"
+            numeric_columns=['reading_score','writing_score']
 
 
             train_set=train_data.drop(columns=[target_column],axis=1)
